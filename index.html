@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivial Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1> Totally Trivial Trivia!</h1>
+        
+        <div class="timerDiv">
+            <h3 id="timer">Remaining Timer 30 seconds.</h3>
+        </div>
+
+        <p id="info">Please choose the correct answer .</p>
+
+        <div class="questions">
+            
+            <h2>Question1: Name the world's biggest island?</h2>
+            <div class="r">
+                <input type="radio" name="q1" value="1"> Greenland
+                <input type="radio" name="q1" value="0"> Big Island
+                <input type="radio" name="q1" value="0"> Bali
+            </div>
+
+            
+            <h2>Question2: Name the world's largest ocean?</h2>
+            <div class="r">
+                <input type="radio" name="q2" value="0"> Indian Ocean
+                <input type="radio" name="q2" value="1"> Pacific Ocean
+                <input type="radio" name="q2" value="0"> Atlantic Ocean
+            </div>
+
+            
+            <h2>Question3: What is the capital city of Spain?</h2>
+            <div class="r">
+                <input type="radio" name="q3" value="1">  Madrid
+                <input type="radio" name="q3" value="0"> Barcelona
+                <input type="radio" name="q3" value="0"> Granada
+            </div>
+
+            
+            <h2>Question4: What is the world's longest river?</h2>
+            <div class="r">
+                <input type="radio" name="q4" value="0"> Nile
+                <input type="radio" name="q4" value="1"> Amazon
+                <input type="radio" name="q4" value="0"> Mississippi
+                <input type="radio" name="q4" value="0"> Yellow River
+            </div>
+
+            
+            <h2>Question5: What is the diameter of Earth?</h2>
+            <div class="r">
+                <input type="radio" name="q5" value="0"> 6,000 miles
+                <input type="radio" name="q5" value="1"> 8,000 miles
+                <input type="radio" name="q5" value="0"> 10,000 miles
+            </div>
+
+            <button id="submit">Check Results</button>
+
+
+        </div>
+
+
+
+        <div class="results">
+            
+            <h4>All Done!</h4>
+            <p id="correct"></p>
+            <p id="incorrect"></p>
+            <p id="unanswered"></p>
+            <button id="restart">Restart Quizz</button>
+
+        </div>
+
+        <div class="start">
+            <center><h4>Start Quize?</h4></center>
+            <center> <p>Click start to start the quize.</p></center>
+            <button id="startbtn">Start</button>
+        </div>
+
+    </div>
+
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
