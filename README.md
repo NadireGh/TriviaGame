@@ -23,3 +23,5 @@
 * uncheck all the checkboxes named from q1 to q5
 
 #### I had screenshot in the Image folder, please check it out.
+ 
+ ## Link to Deployed Game:https://nadiregh.github.io/TriviaGame/
