@@ -22,6 +22,12 @@
 * show  questions section. it will search .question class
 * uncheck all the checkboxes named from q1 to q5
 
+<<<<<<< HEAD
+=======
+
+ ## Link to Deployed Game:https://nadiregh.github.io/TriviaGame/
+
+>>>>>>> 39066477a18404605b62250715fabb0fc1c08267
 ### ScreenShots
 
 ![alt text](Image/ReadMe1.png )
