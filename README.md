@@ -22,4 +22,13 @@
 * show  questions section. it will search .question class
 * uncheck all the checkboxes named from q1 to q5
 
-#### I had screenshot in the Image folder, please check it out.
+### ScreenShots
+
+![alt text](Image/ReadMe1.png )
+
+
+![alt text](Image/ReadMe2.png )
+
+
+![alt text](Image/ReadMe3.png )
+
